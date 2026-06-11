@@ -1,0 +1,29 @@
+import pandas as pd
+df=pd.read_csv(r"Data/covid_data.csv")
+print(df.head())
+print("--"*40)
+print(df.info())
+print("--"*40)
+print(df.describe())
+print("--"*40)
+to_higher=df.sort_values(
+    by="Cases",
+    ascending=False
+)
+print(to_higher.head(10))
+print("--"*40)
+to_higher_death=df.sort_values(
+    by="Deaths",
+    ascending=False
+)
+print(to_higher.head(5))
+print("--"*40)
+df["Death_Rate"]=(df["Deaths"]/df["Cases"]*100
+)
+to_death_rate=df.sort_values(
+    by="Death_Rate",
+    ascending=False
+)
+print(to_death_rate.head(10))
+df.to_csv(r"Data/cleaned_covid_data.csv",index=False)
+print("✅ Csv Created At The Respective File Location")
