@@ -142,7 +142,7 @@ python src/visualization.py
 
 ### Devidutta Das
 
-* GitHub: https://github.com/de
+* GitHub:https://github.com/Devidutta3
 
 ### Dharmvir kumar
 
