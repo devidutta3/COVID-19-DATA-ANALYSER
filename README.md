@@ -138,8 +138,28 @@ python src/visualization.py
 
 ## Author
 
-Krishna
+## 👥 Team Members
 
-B.Tech Student | Python Developer | Data Analytics Enthusiast
+### Devidutta Das
 
-GitHub: <a href="https://github.com/Devidutta3">Profile Link </a>
+* GitHub: https://github.com/de
+
+### Dharmvir kumar
+
+* GitHub: https://github.com/DHARMVIR-AIML
+
+### Contributions
+
+*Devidutta Das*
+
+* Dataset Generation
+* Machine Learning Model Training
+* FastAPI Development
+* API Testing
+
+*Dharmvir kumar*
+
+* Data Analysis
+* Documentation
+* Project Testing
+* GitHub Repository Management
